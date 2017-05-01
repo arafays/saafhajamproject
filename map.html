@@ -1,0 +1,122 @@
+<html>
+    <head>
+        <Title>Saaf Hajam Project</Title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+        <link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet">
+        <link rel="stylesheet" href="./assets/css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="logo-white sidebar">
+                <img src="./assets/images/logocirclewhite.png" alt="">
+            </div>
+            <div class="myMap" >
+                <div id='map'>
+                </div>
+            </div>
+        </div>
+        <div class="areaDetail" >
+            <div class="totalArea">
+                <h3>TOTAL AREA</h3>
+                <p>~ 2.5 km<sup>2</sup></p>
+            </div>
+            <div class="totalPopulation">
+                <h3>POPULATION</h3>
+                <p>~ 1 million</p>
+            </div>
+            <div class="totalCases">
+                <h3>REPORTED CASES</h3>
+                <p>1710</p>
+            </div>
+            <div class="totalBarber">
+                <h3>TOTAL ROADSIDE BARBERS IN THE AREA</h3>
+                <p>11</p>
+            </div>
+            <div class="totalExposure">
+                <h3>PEOPLE EXPOSED DAILY</h3>
+                <p>297</p>
+            </div>
+        </div>
+        <div class="barberDetail closed"  style="opacity: 0">
+            <div class="container">
+                    <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <img src="" alt="" class="mainImage img-responsive">
+                    <div class="barberMainDetail">
+                        <div class="bg-area">
+                            <p id="nameId">x</p>
+                            <p id="age">x</p>
+
+                            <h3>Work Experience</h3>            
+                            <p id="experience">x</p>
+                            <h3>Timings</h3>            
+                            <p id="timings">x</p>
+                            <h3>Average Customers daily</h3>            
+                            <p id="dailyCostumers">x</p>
+                            <h3>Charges</h3>            
+                            <p id="Charges">x</p>
+                        </div>
+                    </div>
+                    <div class="moreDetail">
+                        <div class="bg-area">
+                            <div class="row row-flex">
+                                <div class="justified">
+                            <div class="row row-flex">
+                                <div class="justified">
+                                    <h3>Blade per customer</h3>            
+                                    <p id="bladesPerCustomer">x</p>
+                                    <h3>Use of alum (phitkari)</h3>            
+                                    <p id="alum">x</p>
+                                </div>
+                                <div class="justified">
+                                    <h3>Blade Disposal</h3>            
+                                    <p id="bladeDisposal">x</p>
+                                    <h3>Towel/Apron per customer</h3>            
+                                    <p id="towel">x</p>
+                                </div>
+                                <div class="justified">
+                                    <h3>Cleans Equipment with</h3>            
+                                    <p id="equipmentClean">x</p>
+                                </div>
+                                </div>
+                                </div>
+                                <div class="justified">
+                            <div class="row row-flex">
+                                <div class="justified">
+                                    <p>Scissors: <span id="scissors"></span></p>
+                                    <p>Brushes: <span id="brushes"></span></p>
+                                    <p>Trimmers: <span id="trimmers"></span></p>
+                                </div>
+                                <div class="justified">
+                                    <p>Combs: <span id="combs"></span></p>
+                                    <p>Ustara: <span id="ustara"></span></p>
+                                </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <script src="./assets/js/main.js"></script>
+        <script src="./assets/js/map.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZmo-a-z5UTtP16bJEtygKSqG4tFIIaSE&callback=initMap" async defer></script>
+        
+    </body>
+</html>
